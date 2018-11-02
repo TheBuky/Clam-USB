@@ -1,0 +1,2 @@
+# Action on the mounted partition
+ACTION=="add", KERNEL=="sd*", RUN+="/path_to_your_script/scan-usb.sh"
